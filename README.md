@@ -14,11 +14,11 @@ Let's say you just want to rename all files with the name "Hello.jpg". Then you 
 ## Step 4 : Create a file name
 Each file has different informations. With the help of variables, you can include this informations into the name of the file.
 An example is:
-Input: example\_file\_$[i]\_$[fcyyy]\_$[fcmm].$[fext]
+Input: example\_file\_$[i]\_$[fcyyyy]\_$[fcmm].$[fext]
 Output file1: example\_file\_0\_2022\_03.jpg
 Output file2: example\_file\_1\_2022\_04.jpg
 Output file1: example\_file\_2\_2022\_05.jpg
-In that case, the "i" represents a counter, which counts the files up starting from the number that you choose later and "fcyyy" is the year when the file got created and "fcmm" the month.
+In that case, the "i" represents a counter, which counts the files up starting from the number that you choose later and "fcyyyy" is the year when the file got created and "fcmm" the month.
 It is important to also add back the file extension, otherwise you will lose that one after renaming. The extension can be different for each file, except you selected only jpg files, then it is only jpg. The extension is saved in "fext". There is no special way in connecting text + variables as long as the variable is correct and you write it into $[nameOfVariable]. Hello$[i] is valid and Hello$$$$$$[i] is valid and Hello_$[i] is valid and so on ...
 
 ## Step 5 : Check your created name
