@@ -30,6 +30,8 @@ All files were loaded by alphabet (A-Z). That way, the program will rename them.
 ## Step 7 : Sorting 2.0
 As we already talked about sorting the files, this step allows you to sort the files by name, extension, size, creationdate, editdate. Editdate represents the date when the file was written the last time.
 
-## Step 8 : Start counter. You can ignore this, if you didn't added a counter variable. Otherwise you can add, where the variable should start to count. An example would be 0 or 1 or maybe 2. You can also leave it empty. The default value is 0.
+## Step 8 : Start counting at ...
+Start counter. You can ignore this, if you didn't added a counter variable. Otherwise you can add, where the variable should start to count. An example would be 0 or 1 or maybe 2. You can also leave it empty. The default value is 0.
 
-## Step 9 : Check if you created a name, that makes all names unique. Let's say you selected 2 files and typed in "Hello.jpg" as a name. Now it will rename one file to "Hello.jpg", but for the other files it will fail, since the file already exist. If everything is correct, then the programm will finish everything else and tell you, when it is done.
+## Step 9 : Renaming ...
+Check if you created a name, that makes all names unique. Let's say you selected 2 files and typed in "Hello.jpg" as a name. Now it will rename one file to "Hello.jpg", but for the other files it will fail, since the file already exist. If everything is correct, then the programm will finish everything else and tell you, when it is done.
